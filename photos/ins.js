@@ -142,7 +142,7 @@
 
     var replacer = function replacer(str) {
       var arr = str.split("/");
-      return "/assets/ins/" + arr[arr.length - 1];
+      return "/assets/photos/" + arr[arr.length - 1];
     };
 
     var ctrler = function ctrler(data) {
