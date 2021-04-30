@@ -118,10 +118,10 @@
         for (var i = 0, len = data.link.length; i < len; i++) {
           // 缩略图地址
           // var minSrc = 'http://litten.me/ins-min/' + data.link[i] + '.min.jpg';
-          var minSrc = 'http://litten.me/ins-min/master/min_photos' + data.link[i];
+          var minSrc = 'https://github.com/LutteMars/blog-configuration/tree/master/min_photos/' + data.link[i];
           // 大图地址
           // var src = 'http://litten.me/ins/' + data.link[i];
-          var src = 'http://litten.me/ins/master/photos' + data.link[i];
+          var src = 'https://github.com/LutteMars/blog-configuration/tree/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg';
