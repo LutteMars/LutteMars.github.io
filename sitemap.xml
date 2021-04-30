@@ -195,7 +195,7 @@
   </url>
   
   <url>
-    <loc>http://luttemars.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://luttemars.github.io/categories/life/</loc>
     <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>http://luttemars.github.io/categories/life/</loc>
+    <loc>http://luttemars.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
