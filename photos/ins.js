@@ -116,9 +116,9 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          // var minSrc = 'https://github.com/LutteMars/blog-configuration/blob/master/min_photos/' + data.link[i];
-          // var src = 'https://github.com/LutteMars/blog-configuration/blob/master/photos/' + data.link[i];
-          var minSrc = 'https://raw.githubusercontent.com/LutteMars/blog-configuration/blob/master/min_photos/' + data.link[i];
+          // var minSrc = 'https://github.com/LutteMars/blog-configuration/master/min_photos/' + data.link[i];
+          // var src = 'https://github.com/LutteMars/blog-configuration/master/photos/' + data.link[i];
+          var minSrc = 'https://raw.githubusercontent.com/LutteMars/blog-configuration/master/min_photos/' + data.link[i];
           var src = 'https://raw.githubusercontent.com/LutteMars/blog-configuration/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '');
@@ -142,7 +142,7 @@
 
     var replacer = function replacer(str) {
       var arr = str.split("/");
-      return "/assets/photos/" + arr[arr.length - 1];
+      return "/assets/img/" + arr[arr.length - 1];
     };
 
     var ctrler = function ctrler(data) {
